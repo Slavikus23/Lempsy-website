@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lempsy - Децентрализованный мессенджер</title>
+    <style>
+        body {
+            font-family: -apple-system, system-ui, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            padding: 40px 20px;
+        }
+        h1 {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .feature {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .button {
+            background: white;
+            color: #667eea;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+            display: inline-block;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Lempsy</h1>
+        <p>Децентрализованная социальная сеть будущего</p>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>🔐 Приватность</h3>
+                <p>Только вы владеете своими данными</p>
+            </div>
+            <div class="feature">
+                <h3>🌐 P2P</h3>
+                <p>Без серверов и блокировок</p>
+            </div>
+            <div class="feature">
+                <h3>📱 Бесплатно</h3>
+                <p>Open source навсегда</p>
+            </div>
+        </div>
+        
+        <a href="#" class="button">Скоро будет доступно</a>
+        
+        <p style="margin-top: 40px; font-size: 0.9em;">
+            Lempsy © 2026 • Проект в разработке
+        </p>
+    </div>
+</body>
+</html>
